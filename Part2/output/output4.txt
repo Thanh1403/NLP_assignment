@@ -1,0 +1,21 @@
+Câu hỏi: có bao nhiêu tour đi Phú Quốc vậy bạn?
+
+** Dependencies **
+"bạn" --query-> "có"
+"có" --query-> "mấy"
+"tour" --query-> "đi"
+"đi" --subj-> "tour"
+"đi" --dobj-> "phú_quốc"
+"?" --punc-> "?"
+
+** Grammar Relations **
+(s1 TOUR tour)
+(s1 QUERY mấy)
+(s1 PRED đi)
+(s1 DES phú_quốc)
+(s1 QUERY có)
+
+** Procedure **
+(TOUR-COUNT-TO-PQ)
+
+Trả lời: Số lượng tour đi Phú Quốc là 2.

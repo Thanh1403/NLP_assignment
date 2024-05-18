@@ -1,0 +1,21 @@
+Câu hỏi: tour Nha Trang đi bằng phương tiện gì vậy?
+
+** Dependencies **
+"vậy" --query-> "gì"
+"bằng" --pmod-> "phương_tiện"
+"đi" --subj-> "tour"
+"đi" --dobj-> "nha_trang"
+"?" --punc-> "?"
+
+** Grammar Relations **
+(s1 TOUR tour)
+(s1 DES nha_trang)
+(s1 PRED đi)
+(s1 PRED bằng)
+(s1 SRC phương_tiện)
+(s1 QUERY gì)
+
+** Procedure **
+(TRANSPORT-FROM-NT)
+
+Trả lời: Tour Nha Trang đi bằng phương tiện: train.

@@ -1,0 +1,4 @@
+[Tree('S', [Tree('NP', [Tree('Det', ['the']), Tree('NP', [Tree('N', ['man'])])]), Tree('VP', [Tree('V', ['laughed'])])])]
+[]
+[Tree('S', [Tree('NP', [Tree('Det', ['the']), Tree('NP', [Tree('N', ['man'])])]), Tree('VP', [Tree('V', ['saw'])])])]
+[Tree('S', [Tree('NP', [Tree('Det', ['the']), Tree('NP', [Tree('N', ['man'])])]), Tree('VP', [Tree('V', ['saw']), Tree('NP', [Tree('NP', [Tree('Det', ['a']), Tree('NP', [Tree('N', ['horse'])])]), Tree('PP', [Tree('P', ['in']), Tree('NP', [Tree('Det', ['a']), Tree('NP', [Tree('Det', ['the']), Tree('NP', [Tree('N', ['park'])])])])])])])]), Tree('S', [Tree('NP', [Tree('Det', ['the']), Tree('NP', [Tree('N', ['man'])])]), Tree('VP', [Tree('V', ['saw']), Tree('NP', [Tree('Det', ['a']), Tree('NP', [Tree('NP', [Tree('N', ['dog'])]), Tree('PP', [Tree('P', ['in']), Tree('NP', [Tree('Det', ['a']), Tree('NP', [Tree('Det', ['the']), Tree('NP', [Tree('N', ['field'])])])])])])])])])]

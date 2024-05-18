@@ -1,0 +1,24 @@
+Câu hỏi: đi từ Hồ Chí Minh tới Đà Nẵng hết bao lâu?
+
+** Dependencies **
+"đi" --subj-> "tour"
+"đi" --duration-> "thời_gian"
+"ROOT" --root-> "đi"
+"đi" --pp-> "từ"
+"từ" --pmod-> "thành_phố"
+"đến" --pmod-> "đà_nẵng"
+"bao lâu" --query-> "mấy"
+"đi" --punc-> "?"
+
+** Grammar Relations **
+(s1 TOUR tour)
+(s1 DURATION thời_gian)
+(s1 PRED đi)
+(s1 SRC thành_phố)
+(s1 DES đà_nẵng)
+(s1 QUERY bao_lâu)
+
+** Procedure **
+(DURATION-FROM-HCMC-TO Đà_Nẵng)
+
+Trả lời: Thời gian từ Hồ Chí Minh tới Đà Nẵng là 2 giờ.

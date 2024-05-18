@@ -1,0 +1,18 @@
+Câu hỏi: đi Nha Trang có những ngày nào nhỉ?
+
+** Dependencies **
+"nhỉ" --query-> "nào"
+"đi" --subj-> "tour"
+"đi" --dobj-> "nha_trang"
+"?" --punc-> "?"
+
+** Grammar Relations **
+(s1 TOUR tour)
+(s1 DES nha_trang)
+(s1 PRED đi)
+(s1 QUERY nào)
+
+** Procedure **
+(DAYS-TO-NT)
+
+Trả lời: Tour đi Nha Trang có những ngày: 7:00HR.

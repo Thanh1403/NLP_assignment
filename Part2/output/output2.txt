@@ -1,0 +1,24 @@
+Câu hỏi: đi từ Hồ Chí Minh tới Nha Trang hết bao lâu?
+
+** Dependencies **
+"đi" --subj-> "tour"
+"đi" --duration-> "thời_gian"
+"ROOT" --root-> "đi"
+"đi" --pp-> "từ"
+"từ" --pmod-> "thành_phố"
+"đến" --pmod-> "nha_trang"
+"bao lâu" --query-> "mấy"
+"đi" --punc-> "?"
+
+** Grammar Relations **
+(s1 TOUR tour)
+(s1 DURATION thời_gian)
+(s1 PRED đi)
+(s1 SRC thành_phố)
+(s1 DES nha_trang)
+(s1 QUERY bao_lâu)
+
+** Procedure **
+(DURATION-FROM-HCMC-TO Nha_Trang)
+
+Trả lời: Thời gian từ Hồ Chí Minh tới Nha Trang là 5 giờ.

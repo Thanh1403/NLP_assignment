@@ -1,0 +1,22 @@
+S -> NP VP
+NP -> Det NP
+NP -> N
+NP -> PRON N 
+NP -> NP PP
+PP -> P NP
+VP -> V
+VP -> V NP
+VP -> V PP
+VP -> VP ADV
+ADV -> 'nice' | 'always'
+Det -> 'the'
+Det -> 'a'
+PRON -> 'I'| 'He'| 'She'
+V ->  'laughed'
+V -> 'saw'
+V -> 'ran'
+N -> 'man' | 'girl' 
+N -> 'field'
+N -> 'horse'
+P -> 'in'
+P -> 'with' 

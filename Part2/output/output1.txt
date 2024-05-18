@@ -1,0 +1,12 @@
+Câu hỏi: em có thể nhắc lại tất cả các tour được không?
+
+** Dependencies **
+(No dependencies)
+
+** Grammar Relations **
+(No grammar relations)
+
+** Procedure **
+(PRINT-ALL)
+
+Trả lời: TOUR PQ_, TOUR DN_, TOUR NT_
